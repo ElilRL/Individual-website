@@ -64,7 +64,7 @@ h1 {
   background: transparent;
   border: none;
   padding: 1em 1.5em;
-  color: #f10c0c;
+  color: #0b98bb;
   text-transform: uppercase;
   position: relative;
   transition: 0.5s ease;
@@ -80,13 +80,13 @@ h1 {
   bottom: 0;
   height: 2px;
   width: 0;
-  background-color: #0f0bd4;
+  background-color: #0b9bd4;
   transition: 0.5s ease;
 }
 
 
 .btn:hover {
-  color: #ffffff;
+  color: #d4951e;
   transition-delay: 0.5s;
 }
 
