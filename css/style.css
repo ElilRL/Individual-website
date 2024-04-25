@@ -64,12 +64,21 @@ h1 {
   background: transparent;
   border: none;
   padding: 1em 1.5em;
-  color: #0b98bb;
   text-transform: uppercase;
   position: relative;
   transition: 0.5s ease;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 10px; 
+  font-weight: bold;
+  color: #333; /* Base color of the text */
+  background: linear-gradient(45deg, #fefdff, #ffffff); /* Gradient background */
+  -webkit-background-clip: text; /* Clip text to background */
+  -webkit-text-fill-color: transparent; /* Hide the text itself */
+  text-shadow: 0 0 5px rgba(24, 230, 185, 0.8); /* Text shadow */
+  /* Optional: Add a box shadow to enhance the shiny effect */
+  box-shadow: 0 0 10px rgba(214, 13, 13, 0.8);
+
+
 }
 
 
@@ -80,13 +89,13 @@ h1 {
   bottom: 0;
   height: 2px;
   width: 0;
-  background-color: #0b9bd4;
+  background-color: #e70e0e;
   transition: 0.5s ease;
 }
 
 
 .btn:hover {
-  color: #d4951e;
+  color: #f00f0f;
   transition-delay: 0.5s;
 }
 
@@ -103,7 +112,7 @@ h1 {
   bottom: 0;
   height: 0;
   width: 100%;
-  background-color: #eeeae2;
+  background-color: #000000;
   transition: 0.4s ease;
   z-index: -1;
 }
@@ -112,7 +121,7 @@ h1 {
 .btn:hover::after {
   height: 100%;
   transition-delay: 0.4s;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -121,7 +130,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #141612;
+    background-image: url(https://c8.alamy.com/comp/2B7XAFY/red-business-word-cloud-art-beautiful-red-word-cloud-background-2B7XAFY.jpg);
     position: sticky;
     top: 0;
   }
@@ -262,8 +271,31 @@ span a {
   color: #ffffff;
 }
 
+
 #fun-fact {
   display: none;
   margin-top: 10px;
   color: white;
 }
+
+/* end */
+
+
+
+
+button {
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  height: 5rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: rgb(0, 0, 0);
+}
+
+
+
