@@ -70,7 +70,7 @@ h1 {
   cursor: pointer;
   margin-top: 10px; 
   font-weight: bold;
-  color: #333; /* Base color of the text */
+  color: #000000; /* Base color of the text */
   background: linear-gradient(45deg, #fefdff, #ffffff); /* Gradient background */
   -webkit-background-clip: text; /* Clip text to background */
   -webkit-text-fill-color: transparent; /* Hide the text itself */
@@ -127,10 +127,11 @@ h1 {
 
 /*NavBar*/
 .navbar {
+    padding-left: 500px;
     display: flex;
     justify-content: center;
+    background-color: #000000;
     align-items: center;
-    background-image: url(https://c8.alamy.com/comp/2B7XAFY/red-business-word-cloud-art-beautiful-red-word-cloud-background-2B7XAFY.jpg);
     position: sticky;
     top: 0;
   }
@@ -291,7 +292,7 @@ button {
   height: 5rem;
   width: 10rem;
   font-size: 1.5rem;
-  border-radius: 5px;
+  border-radius: 5px; 
   border: none;
   box-shadow: 1px 1px 5px black;
   background-color: rgb(0, 0, 0);

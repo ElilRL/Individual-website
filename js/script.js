@@ -15,7 +15,7 @@ function updateThree(){
 }
 
 function updateSix(){
-    document.getElementById('output').innerHTML = "Interactive website construction involves combining HTML for structure, CSS for styling, and JavaScript for interactivity. HTML provides the backbone of the webpage, defining its structure and content. CSS styles the HTML elements, making the site visually appealing and responsive. JavaScript adds interactivity by handling user actions like clicks and input, manipulating the Document Object Model (DOM) to dynamically update content and respond to user interactions. By utilizing event listeners, DOM manipulation, and asynchronous communication techniques like AJAX, developers can create engaging websites that respond to user input and provide a seamless browsing experience across different devices and screen sizes.<br> <------ Click Me";
+    document.getElementById('output').innerHTML = "Interactive website construction involves combining HTML for structure, CSS for styling, and JavaScript for interactivity. HTML provides the backbone of the webpage, defining its structure and content. CSS styles the HTML elements, making the site visually appealing and responsive. JavaScript adds interactivity by handling user actions like clicks and input, manipulating the Document Object Model (DOM) to dynamically update content and respond to user interactions. By utilizing event listeners, DOM manipulation, and asynchronous communication techniques like AJAX, developers can create engaging websites that respond to user input and provide a seamless browsing experience across different devices and screen sizes.<br> <------------------- Click Me";
     document.getElementById('img').src="img/Recording 2024-04-18 102939.gif";
 }
 
